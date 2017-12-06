@@ -1,0 +1,11 @@
+framework module WtCore {
+  umbrella header "WtCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WtCore.Swift {
+    header "WtCore-Swift.h"
+    requires objc
+}
